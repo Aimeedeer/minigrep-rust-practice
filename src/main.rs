@@ -1,8 +1,7 @@
 use minigrep::Config;
-use std::env;
-use std::process;
+use std::{env, process};
 
-// run: 
+// run:
 // $ cargo run to poem.txt
 // $ CASE_INSENSITIVE=1 cargo run to poem.txt
 // $ cargo run to poem.txt > output.txt
